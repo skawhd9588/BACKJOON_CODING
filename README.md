@@ -1,1 +1,1 @@
-# BACKJOON_CODING
+# BOJ_lgorithm
