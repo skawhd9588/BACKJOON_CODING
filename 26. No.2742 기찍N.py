@@ -1,0 +1,1 @@
+for a, b in [*range(int(input()))]: print(int(a)+int(b))
