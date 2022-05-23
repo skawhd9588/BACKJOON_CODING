@@ -1,9 +1,8 @@
-N = int(input()) 
-if N % 5 and N % 3 != 0 :
-    print('-1')
+N = int(input())
 
-for i in range(N//5,0,-1) :
-    if N/i%3==0 :
-        print(N//i+N//i/3)    
-    
-        
+for i in range(N//5,-1,-1) :
+    if (N-5*i)%3 == 0 :
+        print(i+((N-5*i)//3))
+        break
+    else :
+        if i==0 : print('-1')
